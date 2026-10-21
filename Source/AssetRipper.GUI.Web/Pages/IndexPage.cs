@@ -30,10 +30,8 @@ public sealed class IndexPage : DefaultPage
 				new P(writer).WithClass("mt-4").Close(Localization.TippingMessage);
 				using (new Div(writer).WithClass("d-flex justify-content-center mt-3").End())
 				{
-					new A(writer).WithClass("btn btn-primary m-1").WithNewTabAttributes().WithHref("https://paypal.me/ds5678").Close("Paypal");
-					new A(writer).WithClass("btn btn-primary m-1").WithNewTabAttributes().WithHref("https://github.com/sponsors/ds5678").Close("GitHub Sponsors");
-					new A(writer).WithClass("btn btn-primary m-1").WithNewTabAttributes().WithHref("https://buymeacoffee.com/assetripper").Close("Buy Me a Coffee");
-					new A(writer).WithClass("btn btn-primary m-1").WithNewTabAttributes().WithHref("https://ko-fi.com/assetripper").Close("Ko-fi");
+					new A(writer).WithClass("btn btn-primary m-1").WithNewTabAttributes().WithHref("https://discord.gg/MandSnKKbp").Close("Charlie's Unity Hub");
+					new A(writer).WithClass("btn btn-primary m-1").WithNewTabAttributes().WithHref("https://gorillatagmanifesthub.vercel.app/").Close("Gorilla Tag Version Explorer");
 				}
 			}
 		}
