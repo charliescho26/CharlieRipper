@@ -10,9 +10,9 @@ public sealed class IndexPage : DefaultPage
 
 	public override void WriteInnerContent(TextWriter writer)
 	{
-		using (new Div(writer).WithClass("text-center container mt-5").End())
+		using (new Div(writer).WithClass("display-4 mb-4 rainbow-text").End())
 		{
-			new H1(writer).WithClass("display-4 mb-4").Close(Localization.Welcome);
+			new H1(writer).WithClass("display-4 mb-4 rainbow-text").Close(Localization.Welcome);
 			if (GameFileLoader.IsLoaded)
 			{
 				PathLinking.WriteLink(writer, GameFileLoader.GameBundle, Localization.ViewLoadedFiles, "btn btn-success");
